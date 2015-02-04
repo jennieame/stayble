@@ -99,22 +99,8 @@ border-bottom: 2px solid red;
 }
 
 /*---Bildspel---*/
-.frs-slide-img{	
-	width: 100% !important;
-}
 .frs-slideshow-container#stayble-homepagepjc {
 margin-top: 0px !important;
-}
-.frs-slideshow-container > .frs-wrapper > .frs-slideshow-content > .frs-slide-img-wrapper {
-	width: 100% !important;
-}
-.frs-slideshow-container{
-	width: 100% !important;
-	clear: both;
-	margin: -15px 0;
-}
-.frs-slideshow-container .frs-wrapper.frs-skin-elegant ul.frs-bullets li.frs-slideshow-nav-bullets{
-	display: none !important;
 }
 
 /*---POST---*/
