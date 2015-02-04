@@ -102,6 +102,12 @@ border-bottom: 2px solid red;
 .frs-slideshow-container#stayble-homepagepjc {
 margin-top: 0px !important;
 }
+.frs-slideshow-container .frs-wrapper.frs-skin-minimalist ul.frs-bullets li.frs-slideshow-nav-bullets{
+	background: #0F3D4D !important;
+}
+.frs-slideshow-container .frs-wrapper.frs-skin-minimalist ul.frs-bullets li.frs-bullets-active{
+	background: red !important;
+}
 
 /*---POST---*/
 #postWrapper{
