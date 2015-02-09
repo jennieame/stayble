@@ -8,7 +8,7 @@
 	</header>
 	<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 	<!-- <?php get_template_part( 'entry' ); ?> -->
-		<div id="post">
+		<div class="post">
 			<?php get_template_part( 'entry' ); ?>
 		</div>
 		<?php endwhile; endif; ?>

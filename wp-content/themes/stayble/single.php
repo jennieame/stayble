@@ -2,7 +2,7 @@
 <section id="content" role="main">
 <div class="wrapper">
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-<div id="post">
+<div id="post" class="post">
 <?php get_template_part( 'entry' ); ?>
 </div>
 <?//php if ( ! post_password_required() ) comments_template( '', true ); ?>

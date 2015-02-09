@@ -27,16 +27,20 @@ $args=array(
 		<div id="about" class="wrapper">
 			<h1><?php the_title();?></h1>
 			<?php the_content('<p></p>')?>
+			<a href="<?php the_field('aboutlink'); ?>"><button>Read more about us</button></a>
 		</div>
 
 		<div id="tech" class="wrapper">
 			<h1><?php 	the_field('tech_head_front'); ?></h1>
 			<p><?php 	the_field('tech_text_front'); ?></p>
+			<a href="<?php the_field('techlink'); ?>"><button>Read more about our technology</button></a>
+
 		</div>
 		
 		<div id="invest" class="wrapper">
 			<h1><?php 	the_field('invest_head_front'); ?></h1>
 			<p><?php 	the_field('invest_text_front'); ?></p>
+			<a href="<?php the_field('investlink'); ?>"><button>Read more</button></a>
 		</div>
 
 		<div id="contact" class="wrapper">

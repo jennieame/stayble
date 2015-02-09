@@ -2,11 +2,18 @@
 <section id="content" role="main">	
 <div class="wrapper">
 <div id="postWrapper">
+
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-	<div id="post">
-<?php get_template_part( 'entry' ); ?>
-<!-- <?php comments_template(); ?> -->
+
+<div class="post">
+
+	<?php get_template_part( 'entry' ); ?>
+	<a href="<?php the_permalink();?>">
+		<button>Read more</button>
+	</a>
+
 </diV>
+
 <?php endwhile; endif; ?>
 <?php get_template_part( 'nav', 'below' ); ?>
 </section>

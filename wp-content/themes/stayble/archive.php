@@ -12,9 +12,9 @@ else { _e( 'Archives', 'blankslate' ); }
 ?></h2>
 </header>
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-	<div id="post">
+	<div class="post">
 <?php get_template_part( 'entry' ); ?>
-</diV>
+</div>
 <?php endwhile; endif; ?>
 <?php get_template_part( 'nav', 'below' ); ?>
 </section>
